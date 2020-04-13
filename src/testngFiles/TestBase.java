@@ -40,5 +40,6 @@ public void software(){
 @AfterTest
 public void deinstallsoftware(){
 	System.out.println("I am the last");
+	System.out.println("New edits");
 }
 }
