@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11652" started-at="2019-11-15T11:03:51Z" finished-at="2019-11-15T11:04:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11652" started-at="2019-11-15T11:03:51Z" finished-at="2019-11-15T11:04:02Z">
+      <class name="testngFiles.TestBase">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testngFiles.TestBase@21a06946]" name="Login" duration-ms="11600" started-at="2019-11-15T16:33:51Z" finished-at="2019-11-15T16:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="software()[pri:0, instance:testngFiles.TestBase@21a06946]" name="software" duration-ms="0" started-at="2019-11-15T16:34:02Z" finished-at="2019-11-15T16:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- software -->
+        <test-method status="PASS" signature="deinstallsoftware()[pri:0, instance:testngFiles.TestBase@21a06946]" name="deinstallsoftware" is-config="true" duration-ms="0" started-at="2019-11-15T16:34:02Z" finished-at="2019-11-15T16:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinstallsoftware -->
+      </class> <!-- testngFiles.TestBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
