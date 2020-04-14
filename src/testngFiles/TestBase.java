@@ -13,10 +13,11 @@ import org.testng.annotations.Test;
 
 public class TestBase {
 	public WebDriver driver = null;
-@Test
+	String a = "new added string";
+	@Test
 public void Login() throws IOException{
 	Properties prop = new Properties();
-	FileInputStream fis = new FileInputStream("C:\\Users\\Enthuons-Testing\\workspace\\Testng_ude\\src\\testngFiles\\datadriven.properties");
+	FileInputStream fis = new FileInputStream("C:\\Users\\varsh\\GitDemo\\src\\testngFiles\\datadriven.properties");
 	prop.load(fis);
 	//System.out.println(prop.getProperty("username"));
 	if (prop.getProperty("browser").contains("chrome")) {
